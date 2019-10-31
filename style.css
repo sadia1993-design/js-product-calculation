@@ -1,0 +1,62 @@
+/*  .accordion {
+			width: 900px;
+			margin: 0 auto;
+			background: slategrey;
+			padding: 30px 15px;
+		}
+			.scroll-one p {
+				display: none;
+			}
+			.scroll-one a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 20px;
+			background: purple;
+			display: block;
+			border-bottom: 1px solid;
+			padding: 10px 12px;
+		}
+		.scroll-one p#text-show {
+			display: block;
+			color: #fff;
+			text-align: justify;
+		}  */
+		
+		.price-calculation {
+    width: 900px;
+    background: grey;
+    margin: 0 auto;
+    padding: 15px 10px;
+}
+
+.price-calculation form h3 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 33px;
+    background: darkblue;
+}
+
+.price-calculation form {
+    text-align: center;
+}
+
+.price-calculation form input {
+    width: 80%;
+    padding: 9px 0px 9px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+	border-bottom: 1px solid darkblue;
+}
+button {
+    display: inline-block;
+    margin: 40px auto;
+    background: darkblue;
+    border: 0;
+    color: #fff;
+    padding: 17px 54px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
