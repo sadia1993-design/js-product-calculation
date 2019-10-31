@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+	<style>
+	  <!--  .accordion {
+			width: 900px;
+			margin: 0 auto;
+			background: slategrey;
+			padding: 30px 15px;
+		}
+			.scroll-one p {
+				display: none;
+			}
+			.scroll-one a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 20px;
+			background: purple;
+			display: block;
+			border-bottom: 1px solid;
+			padding: 10px 12px;
+		}
+		.scroll-one p#text-show {
+			display: block;
+			color: #fff;
+			text-align: justify;
+		} -->
+		.price-calculation {
+    width: 900px;
+    background: grey;
+    margin: 0 auto;
+    padding: 15px 10px;
+}
+
+.price-calculation form h3 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 33px;
+    background: darkblue;
+}
+
+.price-calculation form {
+    text-align: center;
+}
+
+.price-calculation form input {
+    width: 80%;
+    padding: 9px 0px 9px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+	border-bottom: 1px solid darkblue;
+}
+button {
+    display: inline-block;
+    margin: 40px auto;
+    background: darkblue;
+    border: 0;
+    color: #fff;
+    padding: 17px 54px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+	</style>
+</head>
+
+<body>
+
+    <div id="content">
+	  <!-- <button>click me</button> -->
+	  <!-- <button id="stop">stop</button> -->
+	  <!-- <p style="width:150px; background:lightblue;padding:10px;position:relative">this is a paragraph element</p> -->
+      <!-- <p>Click the button to print the page</p> -->
+      <!-- <button onclick="print_page()">Print</button><br>      -->
+	 <!-- <div class="accordion"> -->
+	    <!-- <div class="scroll-one"> -->
+		    <!-- <a href="">lorem ipsum dolor net</a> -->
+			<!-- <p id="text-show">lorem ipsum dolor net lorem ipsum dolor net lorem ipsum dolor net lorem ipsum dolor net lorem ipsum dolor net -->
+			<!-- lorem ipsum dolor netlorem ipsum dolor net lorem ipsum dolor net</p> -->
+		<!-- </div> -->
+		<!-- <div class="scroll-one"> -->
+		    <!-- <a href="">lorem ipsum dolor net</a> -->
+			<!-- <p id="text">>lorem ipsum dolor net lorem ipsum dolor net lorem ipsum dolor net lorem ipsum dolor net lorem ipsum dolor net -->
+			<!-- lorem ipsum dolor netlorem ipsum dolor net lorem ipsum dolor net</p> -->
+		<!-- </div> -->
+		<!-- <div class="scroll-one"> -->
+		    <!-- <a href="">lorem ipsum dolor net</a> -->
+			<!-- <p id="text">lorem ipsum dolor net lorem ipsum dolor net lorem ipsum dolor net lorem ipsum dolor net lorem ipsum dolor net -->
+			<!-- lorem ipsum dolor netlorem ipsum dolor net lorem ipsum dolor net</p> -->
+		<!-- </div> -->
+		<!-- <div class="scroll-one"> -->
+		    <!-- <a href="">lorem ipsum dolor net</a> -->
+			<!-- <p id="text">lorem ipsum dolor net lorem ipsum dolor net lorem ipsum dolor net lorem ipsum dolor net lorem ipsum dolor net -->
+			<!-- lorem ipsum dolor netlorem ipsum dolor net lorem ipsum dolor net</p> -->
+		<!-- </div> -->
+	 <!-- </div> -->
+	 
+	 <div class="price-calculation">
+	 <form>
+	    <h3>price-calculation</h3><br>
+		Quantity<br><input type="number" placeholder="Quantity" name="qty" id="qty"> <br>
+		Price <br><input type="number" placeholder="Price" name="price" id="price"> <br>
+		Total Price <br><input type="number" placeholder="Total Price"  name="t_price" id="t_price"> <br>
+		Discount<br><input type="number" placeholder="Discount" name="p_discount" id="p_discount"> <br>
+		Amount After Discount<br><input type="number" placeholder="Amount After Discount" name="a_discount" id="a_discount"> <br>
+		Instant Paid<br><input type="number" placeholder="Instant Paid" name="i_paid" id="i_paid"> <br>
+		Due Amount<br><input type="number" placeholder="Due Amount" name="due" id="due"> <br>
+		
+		<button type="button" >calculate</button>
+		
+	 </form>
+	 </div>
+	 
+	 
+    </div>
+
+		
+		
+		<script src="jquery.js" type="text/javascript"></script>
+		<script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
